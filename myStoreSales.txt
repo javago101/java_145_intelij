@@ -1,0 +1,6 @@
+Aiden java_coffee 10.24
+Jonathan Milk 3.5
+Bill Bread 2.6
+Jonathan Apples 3.7
+Aiden bread 2.3
+Aiden Milk 4.60

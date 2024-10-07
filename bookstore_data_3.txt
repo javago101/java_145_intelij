@@ -1,0 +1,7 @@
+Bookstore Membership Rewards Program Data - 2024-09-30
+Number of Sales: 3
+Books Sold: 8
+Total Revenue: 593.09
+Non-members: 1
+Free Members: 1
+Paid Members: 1

@@ -1,0 +1,36 @@
+You are writing a program for a bookstore that has a membership rewards program.
+This membership program has two versions: a free version and a paid version.
+ Both free and paid members receive points when making purchases,
+ and paid members also receive a 10% discount on their total order.
+ Customers who are not a part of the membership program receive no rewards.
+Have your program run in a continuous while loop until the user decides to quit.
+Give the user three options in a menu-based system:
+Enter a new customer sale into the system.
+Ask how many books the customer is buying.
+Ask for the cost of each book, before tax.
+Ask whether the customer is a free member, paid member, or non-member.
+Calculate 9.25% of the subtotal cost to be the amount for taxes and add that amount to the subtotal to calculate the final cost.
+If the customer is a paid member, remove 10% of the subtotal cost from the final cost.
+Note: The tax amount should still be calculated based on the original subtotal amount,
+ before the discount is applied.
+ The amount of the discount should be calculated based on the original subtotal amount before tax is applied.
+Determine how many points the customer will receive for this purchase.
+If the customer is not a member, they receive 0 points.
+ Otherwise, the number of points earned by the customer is based on the following list:
+If 1 book is purchased, all members earn 5 points.
+If 2 books are purchased, all members earn 15 points.
+If 3 books are purchased:
+Paid members earn 50 points
+Free members earn 30 points
+If 4 or more books are purchased
+Paid members earn 100 points
+Free members earn 60 points
+Display the following, one per row:
+# books the customer is purchasing, the subtotal, the tax amount, the final cost, the amount saved
+ (only if they are a paid member, otherwise do not print this row),
+ and points received for this purchase. Make sure to format this information nicely.
+See information on how many sales the store made today:
+Print the number of sales made, the number of books sold, and the grand total of all money earned.
+Also, print the number of each customer type that made purchases (i.e. how many non-members, free members, and paid members).
+Quit the program.
+Exit out of the while loop at this point. Before closing the program, print out how much money the store made today.
